@@ -20,8 +20,9 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Center(
         child: TextButton(
-          onPressed: () {
-            getNumberFact(number: 90);
+          onPressed: () async {
+            final result = await getNumberFact(number: 90);
+            print(result.text.toString());
           },
           child: const Text('Result of number'),
         ),

@@ -16,3 +16,9 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+//?  added json_serializable,  json_annotation ,http,build runner(dev dependencies) packages 
+//?  using json  to dart plugin we made a model for the json structure ,
+//? using that model i converted the json into dataStructure  ,
+// ? we generate .g.dart file using build runner ?
